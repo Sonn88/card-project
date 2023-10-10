@@ -1,0 +1,20 @@
+.card{
+    height: 300px;
+    width: 450px;
+    border: 3px solid darkgreen;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+}
+.picture
+{height: 175px;
+width:125px;
+border: 1px solid black;
+margin: 15px;}
+.summary{
+    height: 25px;
+    width: 275px;
+    border: 1px solid mediumseagreen;
+    margin: 15px;
+}
