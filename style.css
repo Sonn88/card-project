@@ -1,20 +1,51 @@
 .card{
     height: 300px;
     width: 450px;
-    border: 3px solid darkgreen;
+    border: 3px solid #369D1A;
+    background-color: #5B9977;
+
+}
+.title{
+
+    border:  2px solid darkgreen;
+    height: 50px;
+    width: 453px;
+
 }
 .top{
     display: flex;
     flex-direction: row;
 }
-.picture
+.picture-container
 {height: 175px;
 width:125px;
 border: 1px solid black;
 margin: 15px;}
+.picture{
+    height: 175px;
+    width: 125px;
+}
 .summary{
+
     height: 25px;
     width: 275px;
-    border: 1px solid mediumseagreen;
+    border: 1px solid lime;
     margin: 15px;
+
+}
+.words{
+   width: 150px;
+    text-align-last: right;
+}
+.column{
+    flex-direction: column;
+
+}
+.avatar-container{
+    align-items: center;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 1000px;
 }
