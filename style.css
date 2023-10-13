@@ -1,17 +1,21 @@
+
 .card{
-    height: 300px;
+    height: 325px;
     width: 450px;
     border: 3px solid #369D1A;
     background-color: #5B9977;
     position: relative;
 
 }
+.card:hover{
+    box-shadow: 0 9px 18px 0 rgba(0,0,0,0.2);
+}
 .title{
 
     border:  2px solid darkgreen;
-    height: 50px;
+    height: 20px;
     width: 453px;
-
+align-self: center;
 }
 .top{
     display: flex;
@@ -19,12 +23,15 @@
 }
 .picture-container
 {height: 175px;
-width:125px;
-border: 1px solid black;
-margin: 15px;}
+    width:125px;
+    border: 1px solid black;
+    margin: 15px;}
 .picture{
     height: 175px;
     width: 125px;
+}
+.picture:hover{
+    box-shadow: 0 9px 18px 0 #094022 ;
 }
 .summary{
 
@@ -35,7 +42,7 @@ margin: 15px;}
 
 }
 .words{
-   width: 250px;
+    width: 250px;
     text-align-last: right;
 }
 .column{
@@ -43,7 +50,7 @@ margin: 15px;}
 
 }
 .avatar-container {
-position: absolute;
+    position: absolute;
     top: 150px;
     right: 190px;
 
@@ -75,20 +82,19 @@ position: absolute;
     height: 60px;
     width: 60px;
     border-radius: 50%;
-margin: 7px;}
+    margin: 7px;}
 
 .fav{
-  position: absolute;
+    position: absolute;
     top: 220px;
 }
 .fav-border{
     border: 2px solid blue;
-    height: 75px;
-    width: 50px;
+    height: 95px;
+    width: 65px;
 }
 .fav-story{
-
-
-    right: 200px;
+    position: absolute;
+    top: 250px;
+    left: 75px;
 }
-
