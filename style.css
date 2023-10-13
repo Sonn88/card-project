@@ -83,7 +83,16 @@ align-self: center;
     width: 60px;
     border-radius: 50%;
     margin: 7px;}
-
+.character2{
+    position:relative;
+    top: -77px;
+    right: -75px;
+}
+.character3{
+    position:relative;
+    top: -77px;
+    right: -155px;
+}
 .fav{
     position: absolute;
     top: 220px;
