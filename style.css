@@ -42,7 +42,7 @@
     height: 25px;
     width: 330px;
     border: 5px  solid darkgreen;
-    font-size: large;
+    font-size: x-large;
     color: lightgreen;
     padding: 10px;
     margin-right: 10px
@@ -54,16 +54,24 @@
 }
 .words{
     width: 330px;
-    text-align-last: right;
+    text-align: center;
     padding: 5px;
+    color: #8BD161;
 }
-.main{text-align: center; font-size: large;
+.main{text-align: center; font-size: x-large;color: darkgreen;
 }
 .names{
     display: flex;
     flex-direction: row;
-    padding: 65px;
+    padding: 95px;
     justify-content: space-between;
+
+}
+.Emma{
+    color: orange;
+}
+.Norman{
+    color: white;
 }
 .column{
     flex-direction: column;
@@ -182,5 +190,11 @@
     text-align: left;
     padding:5px;
     font-size:14px;
-
+color: white;
 }
+
+
+
+
+
+
