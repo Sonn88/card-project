@@ -1,6 +1,10 @@
 
+.card-area{
+    display: flex;
+    flex-direction: row;
+}
 .card{
-    height: 335px;
+    height: 385px;
     width: 550px;
     border: 3px solid #369D1A;
     background-color: #5B9977;
@@ -25,13 +29,13 @@
     padding: 17px;
 }
 .picture-container
-{height: 205px;
+{height: 215px;
     width:155px;
     border: 1px solid black;
 
 }
 .picture{
-    height: 205px;
+    height: 215px;
     width: 155px;
 
 }
@@ -93,7 +97,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     right: -100px;
-    top:25px;
+    top:65px;
     padding: 3px;
 
 }
@@ -126,20 +130,20 @@
     position:relative;
     flex-direction: row;
     right:118px;
-    top:35px;
+    top:75px;
 
 }
 .character10{
     position:relative;
     flex-direction: row;
     right:13px;
-    top: -47px;
+    top: -7px;
 
 }.character100{
      position:relative;
      flex-direction: row;
      right:-92px;
-     top:-125px;
+     top:-85px;
 
  }
 .character{
@@ -165,7 +169,7 @@
 }
 .fav{
     position: absolute;
-    top: 220px;
+    top: 275px;
     display: flex;
     flex-direction: row;
 }
@@ -186,14 +190,211 @@
 }
 .fav-story{
     height: 50px;
+    width: 125px;
+    text-align: left;
+    padding:5px;
+    font-size:14px;
+    color: white;
+}
+
+
+
+.card2{
+    height: 385px;
+    width: 550px;
+    border: 3px solid deeppink;
+    background-color: darkseagreen;
+    position: relative;
+
+}
+.card2:hover{
+    box-shadow: 0 9px 18px 0 rgba(0,0,0,0.2);
+}
+.title{
+
+    border:  2px solid darkgreen;
+    height: 40px;
+    width: 553px;
+    text-align: center;background-color: darkgreen;
+    color: lightgreen;
+    font-size: x-large;
+}
+.top-card{
+    display: flex;
+    flex-direction: row;
+    padding: 19px;
+}
+.picture2-container
+{height: 205px;
+    width:155px;
+    border: 1px solid black;
+
+}
+.picture2{
+    height: 205px;
+    width: 155px;
+
+}
+.picture2:hover{
+    box-shadow: 0 9px 18px 0 #094022 ;
+}
+.summary2{
+    height: 25px;
+    width: 330px;
+    border: 5px  solid darkgreen;
+    font-size: x-large;
+    color: lightgreen;
+    padding: 10px;
+    margin-right: 10px
+;margin-left: 10px;
+    text-align: center;
+
+
+
+}
+.words2{
+    width: 330px;
+    text-align: center;
+    padding: 5px;
+    color: #8BD161;
+}
+.main2{text-align: center; font-size: x-large;color: blue;
+}
+.names2{
+    display: flex;
+    flex-direction: row;
+    padding: 95px;
+    justify-content: space-between;
+
+}
+.Saiki{
+    color:hotpink;
+}
+.Kaido{
+    color: lightblue;
+}
+.Nendo{
+    color: khaki;
+}
+.column2{
+    flex-direction: column;
+
+}
+.avatar0-container {
+    position: absolute;
+    top: 190px;
+    right: 110px;
+    padding: 10px;
+
+
+}
+
+
+.avatar24{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    right: -100px;
+    top:25px;
+    padding: 3px;
+
+}
+
+.avatar222{
+    height: 75px;
+    width: 75px;
+    right: -35px;
+    border-radius: 50%;
+    padding: 15px;
+}
+.avatar32{
+
+    height: 75px;
+    width: 75px;
+
+    right: -35px;
+    border-radius: 50%;
+    padding: 15px;
+}
+.avatar22{
+    height: 75px;
+    width: 75px;
+    top: -77px;
+    right: -35px;
+    border-radius: 50%;
+    padding: 15px;
+}
+.character12{
+    position:relative;
+    flex-direction: row;
+    right:118px;
+    top:35px;
+
+}
+.character102{
+    position:relative;
+    flex-direction: row;
+    right:13px;
+    top: -47px;
+
+}.character1002{
+     position:relative;
+     flex-direction: row;
+     right:-92px;
+     top:-125px;
+
+ }
+.character32{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 7px;
+
+}
+.character22{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 7px;
+}
+.character7{
+
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 7px;
+
+}
+.fav2{
+    position: absolute;
+    top: 220px;
+    display: flex;
+    flex-direction: row;
+}
+.fav2-border{
+    border: 2px solid darkslategrey;
+    height: 85px;
+    width: 60px;
+
+    margin: 10px;
+}
+.fav2-border:hover{
+    box-shadow: 0 9px 18px 0 rgba(0,0,0,0.2);
+}
+.Aren-pic{
+    height: 85px;
+    width: 60px;
+
+}
+.fav2-story{
+    height: 50px;
     width: 120px;
     text-align: left;
     padding:5px;
     font-size:14px;
 color: white;
 }
-
-
 
 
 
