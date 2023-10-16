@@ -1,7 +1,7 @@
 
 .card{
-    height: 325px;
-    width: 450px;
+    height: 335px;
+    width: 550px;
     border: 3px solid #369D1A;
     background-color: #5B9977;
     position: relative;
@@ -13,37 +13,57 @@
 .title{
 
     border:  2px solid darkgreen;
-    height: 20px;
-    width: 453px;
-align-self: center;
+    height: 40px;
+    width: 553px;
+    text-align: center;background-color: darkgreen;
+    color: lightgreen;
+    font-size: x-large;
 }
 .top{
     display: flex;
     flex-direction: row;
+    padding: 17px;
 }
 .picture-container
-{height: 175px;
-    width:125px;
+{height: 205px;
+    width:155px;
     border: 1px solid black;
-    margin: 15px;}
+
+}
 .picture{
-    height: 175px;
-    width: 125px;
+    height: 205px;
+    width: 155px;
+
 }
 .picture:hover{
     box-shadow: 0 9px 18px 0 #094022 ;
 }
 .summary{
-
     height: 25px;
-    width: 275px;
-    border: 1px solid lime;
-    margin: 15px;
+    width: 330px;
+    border: 5px  solid darkgreen;
+    font-size: large;
+    color: lightgreen;
+    padding: 10px;
+    margin-right: 10px
+;margin-left: 10px;
+    text-align: center;
+
+
 
 }
 .words{
-    width: 250px;
+    width: 330px;
     text-align-last: right;
+    padding: 5px;
+}
+.main{text-align: center; font-size: large;
+}
+.names{
+    display: flex;
+    flex-direction: row;
+    padding: 65px;
+    justify-content: space-between;
 }
 .column{
     flex-direction: column;
@@ -51,59 +71,116 @@ align-self: center;
 }
 .avatar-container {
     position: absolute;
-    top: 150px;
-    right: 190px;
+    top: 190px;
+    right: 110px;
+    padding: 10px;
+
 
 }
+
+
 .avatar1{
     position: absolute;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    right: -100px;
+    top:25px;
+    padding: 3px;
+
 }
+
 .avatar{
     height: 75px;
     width: 75px;
+    right: -35px;
     border-radius: 50%;
+    padding: 15px;
 }
 .avatar3{
+
     height: 75px;
     width: 75px;
+
+    right: -35px;
     border-radius: 50%;
+    padding: 15px;
 }
 .avatar2{
     height: 75px;
     width: 75px;
+    top: -77px;
+    right: -35px;
     border-radius: 50%;
+    padding: 15px;
 }
 .character1{
     position:relative;
+    flex-direction: row;
+    right:118px;
+    top:35px;
+
 }
+.character10{
+    position:relative;
+    flex-direction: row;
+    right:13px;
+    top: -47px;
+
+}.character100{
+     position:relative;
+     flex-direction: row;
+     right:-92px;
+     top:-125px;
+
+ }
 .character{
     height: 60px;
     width: 60px;
     border-radius: 50%;
-    margin: 7px;}
+    margin: 7px;
+
+}
 .character2{
-    position:relative;
-    top: -77px;
-    right: -75px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 7px;
 }
 .character3{
-    position:relative;
-    top: -77px;
-    right: -155px;
+
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 7px;
+
 }
 .fav{
     position: absolute;
     top: 220px;
+    display: flex;
+    flex-direction: row;
 }
 .fav-border{
-    border: 2px solid blue;
-    height: 95px;
-    width: 65px;
+    border: 2px solid darkslategrey;
+    height: 85px;
+    width: 60px;
+
+    margin: 10px;
+}
+.fav-border:hover{
+    box-shadow: 0 9px 18px 0 rgba(0,0,0,0.2);
+}
+.Norman-pic{
+    height: 85px;
+    width: 60px;
+
 }
 .fav-story{
-    position: absolute;
-    top: 250px;
-    left: 75px;
+    height: 50px;
+    width: 120px;
+    text-align: left;
+    padding:5px;
+    font-size:14px;
+
 }
