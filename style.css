@@ -2,7 +2,7 @@
 .card-area{
     display: flex;
     flex-direction: row;
-
+flex-wrap: wrap;
 }
 .card{
     height: 445px;
@@ -71,8 +71,8 @@ padding: 5px;
     top: 250px;
     left: -170px;
     font-size: large;
-    flex-direction: row;
    color: darkgreen;
+
 
 }
 .names{
@@ -224,7 +224,7 @@ align-content: space-around;
 
 
 .card2{
-    height: 408px;
+    height: 448px;
     width: 640px;
     border: 3px solid deeppink;
     background-color:#29a681;
@@ -248,6 +248,7 @@ align-content: space-around;
     display: flex;
     flex-direction: row;
     padding: 19px;
+    border-bottom: 1px solid deeppink;
 }
 .picture2-container
 {height: 210px;
@@ -284,17 +285,22 @@ align-content: space-around;
     color: #e889c7;
     font-size: small;
 }
-.main2{text-align: center; font-size: x-large;color: blue;
+.main2{ text-align: right;
+    padding-right: 100px;
+    font-size: large;
+    color: deeppink;
 }
 .names2{
     display: flex;
     flex-direction: row;
-    padding: 65px;
-    justify-content: space-around;
+    padding:65px;
+    font-size: large;
+    justify-content: space-between;
 
 }
 .Saiki{
     color:hotpink;
+    padding-left:230px;
 }
 .Kaido{
     color: lightblue;
@@ -308,7 +314,7 @@ align-content: space-around;
 }
 .avatar0-container {
     position: absolute;
-    top: 260px;
+    top: 270px;
     right: 110px;
     padding: 10px;
 
@@ -402,10 +408,214 @@ align-content: space-around;
     border: 2px solid darkslategrey;
     height: 95px;
     width: 70px;
+margin: 20px;
+
+}
+.fav2-border:hover{
+    box-shadow: 0 9px 18px 0
+    #8428b5
+;
+}
+.Aren-pic{
+    height:105px;
+    width:80px;
+}
+.fav2-story{
+    height: 50px;
+    width: 130px;
+    text-align: left;
+
+    font-size:14px;
+    color: white;
+    padding-right: 10px;
+    padding-top: 40px;
+}
+
+
+.card3{
+    height: 408px;
+    width: 640px;
+    border: 3px solid deeppink;
+    background-color:#29a681;
+    position: relative;
+    margin:10px;
+
+}
+.card3:hover{
+    box-shadow: 0 9px 18px 0 plum;
+}
+.title3{
+
+
+    height: 40px;
+    width: 640px;
+    text-align: center;background-color: hotpink;
+    color: lightpink;
+    font-size: x-large;
+}
+.top3-card{
+    display: flex;
+    flex-direction: row;
+    padding: 19px;
+    border-bottom: 1px solid deeppink;
+}
+.picture3-container
+{height: 210px;
+    width:155px;
+    border: 1px solid black;
+
+}
+.picture3{
+    height: 210px;
+    width: 155px;
+
+}
+.picture3:hover{
+    box-shadow: 0 9px 18px 0 lightpink;
+}
+.summary3{
+    height: 25px;
+    width: 330px;
+    border: 5px  solid hotpink;
+    font-size: x-large;
+    color: lightpink;
+    padding: 5px;
+    margin-right: 10px
+;margin-left: 10px;
+    text-align: center;
+
+
+
+}
+.words3{
+    width: 450px;
+    text-align: center;
+    padding: 5px;
+    color: #e889c7;
+    font-size: small;
+}
+.main3{text-align: center; font-size: x-large;color: blue;
+}
+.names3{
+    display: flex;
+    flex-direction: row;
+    padding: 65px;
+    justify-content: space-around;
+
+}
+.Saiki{
+    color:hotpink;
+}
+.Kaido{
+    color: lightblue;
+}
+.Nendo{
+    color: khaki;
+}
+.column3{
+    flex-direction: column;
+
+}
+.avatar3-container {
+    position: absolute;
+    top: 260px;
+    right: 110px;
+    padding: 10px;
+
+
+}
+
+
+.avatar23{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    right: -100px;
+    top:25px;
+    padding: 3px;
+
+}
+
+.avatar333{
+    height: 75px;
+    width: 75px;
+    right: -35px;
+    border-radius: 50%;
+    padding: 15px;
+}
+.avatar30{
+
+    height: 75px;
+    width: 75px;
+
+    right: -35px;
+    border-radius: 50%;
+    padding: 15px;
+}
+.avatar33{
+    height: 75px;
+    width: 75px;
+    top: -77px;
+    right: -35px;
+    border-radius: 50%;
+    padding: 15px;
+}
+.character13{
+    position:relative;
+    flex-direction: row;
+    right:118px;
+    top:35px;
+
+}
+.character333{
+    position:relative;
+    flex-direction: row;
+    right:13px;
+    top: -47px;
+
+}.character3333{
+     position:relative;
+     flex-direction: row;
+     right:-92px;
+     top:-125px;
+
+ }
+.character33{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 7px;
+
+}
+.character31{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 7px;
+}
+.character37{
+
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 7px;
+
+}
+.fav3{
+    position: absolute;
+    top: 280px;
+    display: flex;
+    flex-direction: row;
+}
+.fav3-border{
+    border: 2px solid darkslategrey;
+    height: 95px;
+    width: 70px;
 
     margin: 10px;
 }
-.fav2-border:hover{
+.fav3-border:hover{
     box-shadow: 0 9px 18px 0
     #8428b5
 ;
@@ -415,7 +625,7 @@ align-content: space-around;
     width: 70px;
 
 }
-.fav2-story{
+.fav3-story{
     height: 50px;
     width: 120px;
     text-align: left;
@@ -423,6 +633,7 @@ align-content: space-around;
     font-size:14px;
     color: white;
 }
+
 
 
 
